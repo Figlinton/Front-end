@@ -1,0 +1,379 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+ *:before,*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+nav,footer,header,aside {
+    display: block;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a, a:visited {
+    text-decoration: none;
+}
+ul,li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------*/
+
+
+body {
+    font-family: League Spartan;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #102746;
+
+}
+
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(14, 29, 40, 0.8);
+}
+
+@media (max-width:1066px){
+    .header__logo{
+        margin-left: 25px;
+    }
+
+    .header__list{
+        margin-right: 25px;
+    }
+}
+.wrapper { 
+    max-width: 1060px;
+    margin: 0 auto;
+    padding-right: 120px;
+}
+
+
+.header__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+@media (max-width: 770px){
+    .header__nav {
+        display: none;
+    }
+}
+
+/*-------------------*/
+
+.header__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__item {
+    margin-right: 82px;
+}
+
+.header__item:last-child {
+    margin-right: 0;
+}
+
+.header__link {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 200;
+    color: white;
+    transition-duration: 1s;
+}
+
+.header__link:hover {
+    opacity: .75;
+    color: aquamarine;
+}
+
+/*-------------*/
+
+
+
+.intro {
+    min-height: 100vh;
+    background: url(../img/Header/Hero.png) no-repeat center;
+    background-size: cover;
+    padding-top: 263px;
+}
+
+
+
+.intro__title {
+    max-width: 620px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    margin-bottom: 22px;
+}
+
+.intro__text {
+    max-width: 546px;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 60px;
+}
+
+.intro__search {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro__search-field {
+    width: 297px;
+    background-color: transparent;
+    background: url(../img/Header/Oval.png) no-repeat left center;
+    background-size: 20px;
+    border: 0;
+    border-bottom: 2px solid white;
+    margin-right: 60px;
+    padding-left: 43px;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    outline: none;
+
+}
+
+.intro__search-button{
+
+}
+
+@media (max-width:1066px){
+    .intro__title {
+        margin-left: 20px;
+        margin-right: 25px;
+    }
+
+    .intro__text {
+        margin-left: 20px;
+        margin-right: 25px;
+    }
+
+    .intro__search{
+        margin-left: 20px;
+        margin-right: 25px;
+    }
+}
+
+@media (max-width:965px){
+
+    .intro__search-field{
+        margin-bottom: 25px;
+        height: 50px;
+    }
+
+    .intro__search-button{
+        margin-bottom: 35px;
+    }
+
+}
+
+
+.intro__search-field::placeholder {
+    color:white;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.intro__search-button {
+    padding: 15px 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 24px;
+    background-color: #1B7DFF;
+    color: white;
+    border-radius: 12px;
+    transition-duration: 1s;
+}
+
+.intro__search-button:hover {
+    background-color: rgb(27, 0, 177);
+}
+
+.benefits {
+    padding: 0 90px;
+}
+
+.benefits__container {
+    max-width: 1262px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: -220px;
+    padding-bottom: 100px;
+    border: 1px solid #000;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0.3);
+    background-color: white;
+    overflow: hidden;
+}
+
+
+
+@media (max-width:670px){
+    .benefits {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width:410px){
+    .benefits__container {
+        margin-top: -120px;
+    }
+}
+
+@media (max-width:260px){
+    .benefits__container {
+        margin-top: -60px;
+    }
+}
+
+@media (max-width:220px){
+    .benefits__container {
+        margin-top: -20px;
+    }
+}
+
+
+
+.benefits__title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    margin-top: 93px;
+    margin-left: 99px;
+    margin-bottom: 80px;
+}
+
+
+
+
+.benefits__main {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 100px 50px 100px;
+}
+
+.benefits__block {
+    max-width: 317px;
+    margin:15px 15px;
+    border: 1px solid #000;
+    
+}
+
+.benefits__block:first-child {
+   
+}
+
+.benefits__block:last-child {
+    
+}
+
+@media (max-width:800px) {
+    .benefits__main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+
+    .benefits__block:first-child {
+        margin-left: 0;
+    }
+
+
+    .benefits__block:last-child {
+        margin-right: 0;
+    }
+}
+
+
+.benefits__block-img {
+    margin-bottom: 37px;
+    min-height: 66px;
+    max-width: 66px;
+    display: flex;
+    justify-content: center;
+}
+
+.benefits__block-title {
+    margin-bottom: 26px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.benefits__block-text {
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.benefits__block-button {
+    height: 44px;
+    display: inline-block;
+    line-height: 44px;
+    padding: 0 15px;
+    border-radius: 12px;
+    background-color: #1B7DFF;
+    transition-duration: 1s;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+}
+
+
+.benefits__block-button:hover {
+    background-color: rgb(27, 0, 177);
+}
