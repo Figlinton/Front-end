@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+ *:before,*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+nav,footer,header,aside {
+    display: block;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a, a:visited {
+    text-decoration: none;
+}
+ul,li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*-------------------------*/
+
+
+body {
+    font-family: League Spartan;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(14, 29, 40, 0.8);
+    z-index: 2;
+
+}
+
+.wrapper {
+    padding: 0 120px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header__logo {
+
+}
+
+.header__nav {
+
+}
+
+.header__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__item {
+    margin-right: 40px;
+}
+
+.header__item:last-child {
+    margin-right: 0px;
+}
+
+.header__link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #F5F5F5;   
+}
+
+.header__login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__login p {
+    color: white;
+    margin-right: 40px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.header__login p:last-child {
+    margin-left: 40px;
+    margin-right: 0;
+}
+
+.header__login-btn {
+    margin-right: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #F5F5F5;
+
+}
+
+.header__sign-btn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #F5F5F5;
+    border: 1px solid #E0B100;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.intro {
+    background: url(../img/header_img/Hero\ Image.png) no-repeat center;
+    background-size: cover;
+    padding-top: 263px;
+    padding-bottom: 469px;
+}
+
+.intro__title {
+    max-width: 710px;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 80px;
+    color: #F5F5F5;
+}
+
+.intro__text {
+    max-width: 710px;
+    max-height: 104px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #F5F5F5;
+    margin-top: 40px;
+    letter-spacing: 1px;
+}
+
+.intro__search-form {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro__search {
+    max-width: 408px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro__search:last-child {
+    justify-content: flex-end;
+}
+
+.intro__search:first-child {
+    margin-left: 0px;
+}
+
+.intro__search_title {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #F5F5F5;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.intro__search-field {
+    margin-bottom: 40px;
+    min-width: 402px;
+    min-height: 48px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    background-color: transparent;
+    background: url(../img/header_img/input_img/Vector.png) no-repeat left center;
+    border-bottom: 2px solid #F5F5F5;
+    outline: none;
+}
+
+.intro__search-field_2 {
+    margin-bottom: 40px;
+    min-width: 402px;
+    min-height: 48px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    background-color: transparent;
+    background: url(../img/header_img/input_img/uis_calender.png) no-repeat left center;
+    border-bottom: 2px solid #F5F5F5;
+    outline: none;
+}
+
+.intro__search-field_3 {
+    margin-bottom: 40px;
+    min-width: 402px;
+    min-height: 48px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    background-color: transparent;
+    background: url(../img/header_img/input_img/material-symbols_person.png) no-repeat left center;
+    border-bottom: 2px solid #F5F5F5;
+    outline: none;
+}
+
+.intro__search-field::placeholder {
+    font-weight: 400;
+    font-size: 22px;
+    padding-left: 40px;
+}
+
+.intro__search-field_2::placeholder {
+    font-weight: 400;
+    font-size: 22px;
+    padding-left: 40px;
+}
+
+.intro__search-field_3::placeholder {
+    font-weight: 400;
+    font-size: 22px;
+    padding-left: 40px;
+}
+
+.intro__search-field {
+
+}
+
+.intro__button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.intro__search-button {
+    width: 100%;
+    height: 100%;
+    max-width: 222px;
+    min-height: 48px;
+    background-color: transparent;
+    border: 2px solid #E0B100;
+    border-radius: 30px;
+    font-size: 20px;
+    line-height: 16px;
+    font-weight: 400;
+    color:#F5F5F5;
+}
+
+
+
