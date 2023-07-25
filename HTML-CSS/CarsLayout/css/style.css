@@ -471,6 +471,9 @@ body {
     justify-content: space-between;
 }
 
+.footer__media a{
+    margin: 0 15px;
+}
 
 
 
