@@ -346,6 +346,14 @@ body {
     font-weight: 900;
 }
 
+@media (max-width: 380px) {
+
+    .process__wrapper h2 {
+        font-size: 80px;
+        line-height: 111px;
+    }
+}
+
 .process__text {
     text-align: center;
     font-size: 40px;
@@ -383,13 +391,19 @@ body {
     color: gray;
 }
 
+@media (max-width: 500px) {
+
+    .process__cards {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 20px;
+    }
+}
+
 .contact {
     background-color: black;
 }
 
-.contact__wrapper {
-
-}
 
 .contact__wrapper h2 {
     margin-top: 100px;
@@ -406,7 +420,13 @@ body {
     max-width: 500px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
     grid-template-rows: 1fr 1fr;
+    margin-right: 15px;
+}
+
+.contact__inputs-main input {
+    
 }
 
 .contacts__search-field {
@@ -415,12 +435,20 @@ body {
     background-color: transparent;
     color: white;
     outline: none;
+    border-left: 2px solid white;
     border-bottom: 2px solid white;
     margin-top: 45px;
     padding: 10px;
     font-size: 20px;
     line-height: 22.5px;
     letter-spacing: 2px;
+}
+
+@media (max-width: 500px) {
+    .contact__inputs-main {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
 }
 
 .contacts__search-field::placeholder {
@@ -433,6 +461,7 @@ body {
     max-width: 500px;
     margin-top: 45px;
     background-color: transparent;
+    border-left: 2px solid white;
     border-bottom: 2px solid white;
     color: white;
     outline: none;
