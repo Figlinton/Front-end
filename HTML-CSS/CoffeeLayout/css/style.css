@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+ *:before,*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+nav,footer,header,aside {
+    display: block;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a, a:visited {
+    text-decoration: none;
+}
+ul,li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Righteous;
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------*/
+
+body {
+    font-family: Urbanist;
+    background: #14110E;
+}
+
+.header__wrapper {
+    padding: 32px 300px;
+    background-color: #1C1814;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.header__wrapper img {
+    fill: black;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header__item {
+    margin-right: 40px;
+}
+
+.header__item:last-child {
+    margin-right: 0px;
+}
+
+.header__link {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    transition-duration: 0.5s;
+}
+
+.header__link:hover {
+    color: #C99E71;
+}
+
+.intro { 
+    background: url(../img/header_img/rect.png) no-repeat center;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.intro__wrapper {
+    max-width: 530px;
+    width: 100%;
+}
+
+.intro__wrapper h1 {
+    padding-top: 150px;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 94px;
+    color: white;
+}
+
+.intro__wrapper p {
+    color: white;
+    margin-top: 35px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.intro__wrapper button {
+    margin-top: 65px;
+    margin-bottom: 170px;
+    padding: 24px 40px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    border: 1px solid #C99E71;
+    border-radius: 45px;
+    background-color: #C99E71;
+    color: white;
+    transition-duration: 1s;
+}
+
+.intro__wrapper button:hover {
+    background-color: transparent;
+}
+
+.process__wrapper {
+    padding-top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.process__info {
+    display: flex;
+    align-items: center;
+    padding-bottom: 24px;
+}
+
+.process__number {
+    font-family: Righteous;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #C99E71;
+}
+
+.process__text {
+    font-family: Righteous;
+    margin-left: 12px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+}
+
+.process__card img {
+    max-width: 366px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.history__wrapper {
+    margin-top: 140px;
+    display: flex;
+}
+
+
+
+.history__photos img {
+    max-width: 298px;
+    width: 100%;
+
+}
+
+.history__photos img:last-child {
+    padding-top: 32px;
+}
+
+.history__photo {
+    max-width: 298px;
+    width: 100%;
+    margin-left: 32px;
+}
+
+.history__card {
+    padding: 120px 56px;
+    background-color: #1C1814; 
+    max-width: 510px;
+    width: 100%;
+    margin-left: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.history__card h3 {
+    color: #C99E71;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.history__card h2 {
+    font-family: Righteous;
+    margin-top: 12px;
+    color: white;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 63px;
+}
+
+.history__card p {
+    color: #FFFFFFCC;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+}
