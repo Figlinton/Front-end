@@ -190,18 +190,16 @@ body {
 .history__wrapper {
     margin-top: 140px;
     display: flex;
+    max-height: 635px;
+    height: 100%;
 }
-
-
 
 .history__photos img {
     max-width: 298px;
     width: 100%;
-
 }
-
 .history__photos img:last-child {
-    padding-top: 32px;
+    margin-top: 32px;
 }
 
 .history__photo {
@@ -211,23 +209,58 @@ body {
 }
 
 .history__card {
-    padding: 120px 56px;
-    background-color: #1C1814; 
     max-width: 510px;
     width: 100%;
     margin-left: 32px;
-    display: flex;
-    flex-direction: column;
+    background-color: #1C1814;
 }
 
-.history__card h3 {
-    color: #C99E71;
+.history__card h4 {
+    font-family: Urbanist;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
+    color: #C99E71;
+    margin-top: 120px;
+    margin-left: 56px;
 }
 
-.history__card h2 {
+.history__card h3 {
+    margin-top: 12px;
+    margin-left: 56px;
+    margin-right: 56px;
+    font-family: Righteous;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 63px;
+    color: white;
+}
+
+.history__card p {
+    margin-top: 36px;
+    margin-left: 56px;
+    margin-right: 56px;
+    font-family: Urbanist;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 29px;
+    color: white;
+}
+
+.popular__wrapper {
+    margin-top: 140px;
+    text-align: center;
+}
+
+.popular__wrapper h4 {
+    color: #C99E71;
+    font-family: Urbanist;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.popular__wrapper h2 {
     font-family: Righteous;
     margin-top: 12px;
     color: white;
@@ -236,10 +269,128 @@ body {
     line-height: 63px;
 }
 
-.history__card p {
-    color: #FFFFFFCC;
-    margin-top: 12px;
+.popular__cards {
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular__card {
+    padding: 48px;
+    background-color: #121315;
+}
+
+.popular__card img {
+    max-width: 270px;
+    width: 100%;
+}
+
+.popular__card h3 {
+    margin-top: 36px;
+    color: white;
     font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: Righteous;
+    text-transform: uppercase;
+}
+
+.popular__card p {
+    margin-top: 35px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;  
+    color: white;
+}
+
+.popular__card p button{
+   background-color: transparent;
+   color: white;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 22px;
+   transition-duration: 1s;
+}
+
+.popular__card p button:hover {
+    color: #C99E71;
+}
+
+.popular__button {
+    max-width: 252px;
+    width: 100%;
+    margin-top: 56px;
+    padding: 20px 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    border: 1px solid #C99E71;
+    border-radius: 45px;
+    background-color: #C99E71;
+    color: white;
+    transition-duration: 1s;
+}
+
+.popular__button:hover {
+    background-color: transparent;
+}
+
+.machine__wrapper {
+    margin-top: 140px;
+    padding: 85px 80px 85px 170px;
+    background-color: #1C1814;
+    display: flex;
+    align-items: center;
+}
+
+.machine__photo {
+    max-width: 226px;
+    width: 100%;
+}
+
+.machine__info {
+    margin-left: 160px;
+}
+
+.machine__title {
+    font-family: Righteous;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    color: white;
+}
+
+.machine__text {
+    color: white;
+    margin-top: 36px;
+    font-weight: 300;
+    font-family: Urbanist;
     font-size: 16px;
     line-height: 29px;
 }
+
+.machine__button {
+    margin-top: 36px;
+    padding: 20px 36px;
+    max-width: 215px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    border: 1px solid #C99E71;
+    border-radius: 45px;
+    background-color: #C99E71;
+    color: white;
+    transition-duration: 1s;
+}
+
+.machine__button:hover {
+    background-color: transparent;
+}
+
+
+
+
