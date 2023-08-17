@@ -60,7 +60,7 @@ body {
 }
 
 .header__wrapper {
-    padding: 32px 300px;
+    padding: 32px 100px;
     background-color: #1C1814;
     display: flex;
     flex-wrap: wrap;
@@ -391,6 +391,320 @@ body {
     background-color: transparent;
 }
 
+.menu__wrapper {
+    text-align: center;
+}
+
+.menu__wrapper h4 {
+    font-family: Urbanist;
+    margin-top: 140px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #C99E71;
+}
+
+.menu__wrapper h2 {
+    margin-top: 12px;
+    font-family: Righteous;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62.4px;
+    color: white;
+}
 
 
+.menu__panel {
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.menu__cards {
+    display: flex;
+    flex-direction: column;
+    max-width: 565px;
+    width: 100%;
+}
+
+.menu__card {
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #32323D;
+    max-width: 565px;
+    margin-bottom: 36px;
+}
+
+.menu__card:last-child {
+    margin-bottom: 0px;
+}
+
+.menu__photo {
+    max-width: 72px;
+    width: 100%;
+}
+
+.menu__product-name {
+    font-family: Righteous;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+}
+
+
+.menu__product-price {
+    font-family: Urbanist;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    transition-duration: 1s;
+}
+
+.menu__product-price:hover {
+    color: #C99E71;
+}
+
+.opinion__wrapper {
+    margin-top: 140px;
+}
+
+.opinion__wrapper h4 {
+    text-align: center;
+    font-family: Urbanist;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #C99E71;
+}
+
+.opinion__wrapper h2 {
+    text-align: center;
+    margin-top: 12px;
+    font-family: Righteous;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62.4px;
+    color: white;
+}
+
+.opinion__cards {
+    margin-top: 56px;
+    display: flex;
+}
+
+.opinion__card {
+    background-color: #1C1814;
+    max-width: 565px;
+    width: 100%;
+    padding: 40px;
+}
+
+.opinion__card:last-child {
+    margin-left: 40px;
+}
+
+.opinion__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opinion__info img {
+    max-width: 129px;
+    width: 100%;
+    max-height: 149px;
+    height: 100%;
+}
+
+.opinion__info p {
+    max-width: 332px;
+    width: 100%;
+    color: white;
+    font-family: Urbanist;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28.8px;
+}
+
+.opinion__user-name {
+    margin-top: 28px;
+    font-family: Urbanist;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: white;
+}
+
+.opinion__user-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.opinion__user-info p {
+    font-family: Urbanist;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25.2px;
+    color: #FFFFFF80;
+}
+
+.booking__wrapper {
+    margin-top: 140px;
+    display: flex;
+}
+
+.booking__card {
+    background-color: #1C1814;
+    padding: 72px 48px;
+    max-width: 495px;
+    width: 100%;
+    max-height: 510px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.booking__card h4 {
+    font-family: Urbanist;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #C99E71;
+}
+
+.booking__card h2 {
+    margin-bottom: 56px;
+    font-family: Righteous;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59.6px;
+    color: white;
+}
+
+.booking__input {
+    margin-bottom: 24px;
+    padding: 20px 16px;
+    max-width: 489px;
+    width: 100%;
+    background-color: #14110E;
+    color: white;
+    font-family: Urbanist;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32.4px;
+}
+
+.booking__input::placeholder {
+    color: white;
+}
+
+.booking__input:last-child {
+    margin-bottom: 0px;
+}
+
+.booking__card button {
+    margin-top: 36px;
+    padding: 20px 36px;
+    max-width: 215px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    border: 1px solid #C99E71;
+    border-radius: 45px;
+    background-color: #C99E71;
+    color: white;
+    transition-duration: 1s;
+}
+
+.booking__card button:hover {
+    background-color: transparent;
+}
+
+.news__wrapper {
+    margin-top: 140px;
+}
+
+.news__wrapper h4 {
+    font-family: Urbanist;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #C99E71;
+    text-align: center;
+}
+
+.news__wrapper h2 {
+    font-family: Righteous;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62.4px;
+    color: white;
+    text-align: center;
+}
+
+.news__cards {
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news__card {
+    background-color: #1C1814;
+}
+
+.news__photo {
+    max-width: 366px;
+    width: 100%;
+}
+
+.news__information{
+    padding: 24px;
+}
+
+.news__by {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news__by p {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Urbanist;
+    line-height: 21.78px;
+    color: white;
+}
+
+.news__by span {
+    color: #C99E71;
+}
+
+.news__text {
+    margin-top: 16px;
+    margin-bottom: 33px;
+    font-family: Righteous;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+
+.news__next-page {
+    display: flex;
+    align-items: center;
+    font-family: Urbanist;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #C99E71;
+}
+
+.news__next-page img {
+    margin-left: 8px;
+}
